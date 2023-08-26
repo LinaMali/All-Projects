@@ -1,0 +1,106 @@
+.header{
+    background-color: rgb(53, 105, 88);
+}
+.grid_5 img{
+ width: 80px;
+ height: 80px;
+ border-radius: 40px;
+ border: 2px solid rgb(85, 50, 50);
+ margin-left: 50px;
+ margin-bottom: 8%;
+ margin-top: 2%;
+ margin-right: 2px;
+}
+#img1{
+    margin-left: 160px;
+    width: 900px;
+    height: 200px;
+    border-radius: 0%;
+    margin-bottom: 0%;
+    border:2px solid black;
+}
+.navgrid_7{
+    background-color: rgb(238, 143, 214);
+}
+.navgrid_7 a{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(18, 63, 18);
+    width: 900px;
+    height: 30px;
+    padding-left:50px ;
+    margin-left: 100px;
+    position: relative;
+}
+.header a:hover{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(55, 137, 148);
+    width: 900px;
+    height: 30px;
+    padding-left:50px ;
+    margin-left: 100px;
+ 
+}
+.grid_6push_6{
+    color: black;
+    padding-left: 290px;
+    font-size: xx-large;
+    font-weight: 900;
+    font-style: oblique;
+    font-family: Arial, Helvetica, sans-serif;
+    position: static;
+}
+.grid_12 a{
+ color: blue;
+}
+.grid_12 a:focus{
+    color: red;
+}
+.date{
+    margin-right: 10px;
+    margin-left: 1200px;
+  font-size: 15px;
+  font-weight: bolder;
+    color: rgb(15, 3, 20);
+}
+.grid_3 img{
+  width: 400px;
+height: 400px;
+border-radius: 20px;
+border: 5px solid rgb(233, 209, 163);
+}
+.grid_3{
+    float: left;
+  width: 40%;
+  border: 1px solid black;
+  height: 550px;
+  color:black;
+  background-color: #8f165c;
+  padding-left: 70px;
+  padding-top: 30px;
+  padding-right:0px;
+  margin-left: 45px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-radius: 60px;
+  border: 5px solid #ee70b9;
+  border-inline-start: #8f165c;
+  border-inline-end-color: rgb(229, 255, 80);
+
+}
+.grid_3 p a{
+    color: rgb(245, 245, 245);
+}
+.grid_3 p a:hover{
+    color: rgb(0, 238, 255);
+}
+.grid_3 p a:focus{
+    color: rgb(34, 230, 34);
+}
+.grid_12{
+    margin-left: 450px;
+    margin-top: 5%;
+    font-size: 20px;
+    color: blue;
+}
