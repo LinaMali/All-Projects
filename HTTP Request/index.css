@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+header{
+    background-color: aliceblue;
+    margin-left: 350px;
+    margin-right: 300px;
+}
+header h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(158, 17, 41);
+    text-align: center;
+}
+header p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color:blue;
+    text-align: center;
+}
+header button{
+background-color: green;
+color: white;
+ padding: 14px 20px;
+ margin-top: 10px;
+ margin-left: 280px;
+ margin-bottom: 20px;
+ border: none;
+ cursor: pointer;
+ border-radius: 5px;
+}
+header button:hover{
+    background-color: rgb(207, 37, 31);
+    color: white;
+     padding: 14px 20px;
+     margin-top: 10px;
+     margin-left: 280px;
+     margin-bottom: 20px;
+     border: none;
+     cursor: pointer;
+     border-radius: 5px;
+    }
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: green;
+    text-align: center;
+}
+.card-title{
+ width: 40%;
+ height: 200px;
+ margin-left: 50px;
+ margin-right: 50px;
+ float: left;
+ padding-top: 20px;
+ padding-bottom: 20px;
+ padding-left: 40px;
+ padding-right: 40px;
+ margin-top: 50px;
+ color:rgb(85, 20, 80);
+ background-color: #ffffff;
+ border-radius: 30px;
+ border: 2px solid white;
+ box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+.card-body{
+    color: black;
+    padding-top: 10px;
+}
