@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hospital.js"></script>
+    <header>
+      <nav class="navigation">
+        <h2>WORLD VISION CLINIC</h2>
+        <a href="index.html">Home</a>
+          <a href="About.html">About</a>
+          <a href="Service.html">Service</a>
+          <a href="Doctor.html">Doctors</a> 
+          <a href="Contact.html">Contact</a>
+          <a href="register.html">Login</a>
+          <a href="Appointment.html">Appointment</a>
+      </nav>
+      </header>
+</head>
+<body class="Contact">
+    <div class="Contacthead">
+        <h1>Contact Us</h1>
+    </div>
+      <div class="Contact1">
+
+        <form name="form1" action="index.html">
+            <div>
+             <h2>Contact Me</h2>
+             <h4>Please fill this form in a decent manner</h4>
+            </div>
+            <label for="name">Full Name : </label>&nbsp;&nbsp;&nbsp;
+            <input type="text" id="name" name="name"  placeholder="Enter your name..." onkeypress="return charactersOnly(event);" required><br><br>
+            <label for="email">Email ID : </label>&nbsp;&nbsp;&nbsp;
+            <input type="email" id="email" name="email" placeholder="Enter your email..."><br><br>
+            <label> Clinic/Org Name :  </label>&nbsp;&nbsp;&nbsp;
+        </b> <input type="text" id="name" name="orgname" placeholder="Enter Clinic/Org name..."  required><br><br>
+            <label for="phone">Phone No. : </label>&nbsp;&nbsp;&nbsp;
+             <input type="text"  id="name" name="Phone" maxlength="10" minlength="10"  onkeypress="return numbersOnly(event);"><br><br>
+            <label for="City"> City :  </label>&nbsp;&nbsp;&nbsp;
+             <input type="text" id="name" name="City" placeholder="Enter City name..."  required><br><br>
+            <label for="Messege">Messege : </label>&nbsp;&nbsp;&nbsp;
+            <textarea cols="20" rows="5" id="msg"></textarea><br>
+            <input type="submit" id="submit1" name="submit" value="Submit">
+           </form>
+      </div>
+
+    <footer>
+        <div class="footer">
+          <h4>WORLD VISION CLINIC</h4>
+        <p>DocPulse Technologies, 91080 WORKSPACE (JPN),<br>
+          # 951, 24th Main Road, Marenahalli, 2nd Phase,<br>
+          J. P. Nagar, Bengaluru, Karnataka 560078<br><br>
+          <img src="mail.png">&nbsp;contactus@docpulse.com<br><br>
+          Support Team<br><br>
+          <img src="phone">&nbsp;08046837034<br><br>
+          Sales Team<br><br>
+          <img src="phone">&nbsp;08069484993<br><br>          
+          <a href="About.html"><font style color="white">About Us</font></a><br>
+          Privacy Policy<br></p>
+        </div>
+        <div class="footer">
+          <h4> PRODUCTS</h4>
+         <p> IVR Appointment Booking Software<br>
+          OP Billing<br>
+          Electronic Health Record<br>
+          Lab<br>
+          Pharmacy</p>
+          <div class="foot">
+            <p> &copy; WORLD VISION CLINIC - All Right Reserved.</p>
+          </div>
+        </div>
+       <div class="footer">
+        <h4>SOLUTIONS</h4>
+        <p>
+          Clinic<br>
+          Medical Centers<br>
+          Hospitals<br>
+          Clinic Chains<br>
+          FAQ</p>
+       </div>
+    
+      </footer>
+    </body>
+    </html>
+    
